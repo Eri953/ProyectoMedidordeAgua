@@ -1,0 +1,22 @@
+[
+    {
+        "id": "fa32b6293ea888ba",
+        "type": "function",
+        "z": "1ee884937ec93e39",
+        "name": "Delete",
+        "func": "msg.topic = \"delete from temperaturas\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 560,
+        "wires": [
+            [
+                "b86d40069fc664b8"
+            ]
+        ]
+    }
+]
